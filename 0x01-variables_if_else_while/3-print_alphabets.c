@@ -1,26 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
-/** 
- * main - prints the letters of the alphabet 
+#include <stdio.h>
+
+/**
+ * main - Entry point
  *
- * Description: prints the letter of the alphabet
+ * Return: 0
  */
-
-
 int main(void)
 {
-	int n;
+	char i;
+	char j;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char ch;
-	for (ch = 'a' ;ch <= 'z' ; ch++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar(ch);
+		putchar(i);
 	}
-	for (ch = 'A' ;ch <= 'Z' ; ch++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{
-		putchar(ch)
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
