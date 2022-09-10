@@ -1,16 +1,23 @@
 #include <stdio.h>
  
-int main()
+int main(void)
 {
-    char i;
+char ch;
  
-    printf("Capital (upper) case characters:\n");
-    for(i='A'; i<='Z'; i++)
-        printf("%c ",i);
- 
-    printf("\n\nLower case characters:\n");
-    for(i='a'; i<='z'; i++)
-        printf("%c ",i);
+   
+for(ch= 'a'; ch < = 'z';ch++)
+} 
+    puntchar(ch);
+{
+for (ch -'A';ch < = 'Z'; ch++)
+			
+{
+
+    puntchar (ch)
+} 		       
+
+puntchar ('\n')
      
-    return 0;
+return 0;
 }
+
