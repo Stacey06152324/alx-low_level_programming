@@ -3,22 +3,24 @@
 #include <time.h>
 
 /**
- * main - print a random number and stase wherther 
- * it is positive,negative,or zero.
- 
+ * main - print last digit in random number
+ *
+ * Description: print last digit in random number
+ *
  * Return: Always 0 (Success)
-*/
+ */
 
 int main(void)
 {
-	int n,;
+	int n, last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf(" %d is positive\n", n,);
-	else if (n < 0)
-		printf("%d is negative\n", n,);
-	else      
-		printf("%d is zero\n", n,);
+	last = n % 10;
+	if (last > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, last);
+	else if (last == 0)
+		printf("Last digit of %d is %d and is 0\n", n, last);
+	else if (last < 6 && last != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 	return (0);
