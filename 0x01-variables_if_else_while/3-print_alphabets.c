@@ -1,23 +1,18 @@
 #include <stdio.h>
  
 int main(void)
+
 {
 char ch;
- 
-   
-for(ch= 'a'; ch < = 'z';ch++)
-} 
-    puntchar(ch);
+for (ch = 'a' ; ch < = 'z' ; ch++)
 {
-for (ch -'A';ch < = 'Z'; ch++)
-			
+        putchar(ch);
+}
+for (ch = 'A' ; ch < = 'Z' ; ch++)
 {
-
-    puntchar (ch)
-} 		       
-
-puntchar ('\n')
-     
-return 0;
+	putchar(ch);
+}
+putchar('\n');
+return(0);
 }
 

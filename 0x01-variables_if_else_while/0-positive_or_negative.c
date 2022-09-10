@@ -1,24 +1,25 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/**
- * main - print random number and states wherther it is positive,negative or zero.
+/* 
+ * main - prints if the number is positive 
  *
- * Return: Always 0 (Success)
+ * Description: using the main function 
+ * this program prints "Programming is positive,negative or zero 
+ * Return:0
  */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	if ( n > 0)
-		printf("%d is positve\n,n");
+	if (n < 0)
+		print("%d is positive\n" ;n);
 	else if (n < 0)
-		printf("%d is negative\n;n");
-	else    
-		printf("%d is zero\n";n);
+		print("%d is negative\n" ;n);
+	else
+		print("%d is zero\n");
 	return (0);
+}
