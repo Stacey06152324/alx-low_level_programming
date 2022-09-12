@@ -1,32 +1,19 @@
 #include <stdio.h>
 
-void main()
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
+int main(void)
 {
+	char i;
 
-        int ch;
-
-
-        clrscr();
-
-        printf(“Print all uppercase letters followed by all lowercase letters on the next line :\n”);
-
-        /* print uppercase letters */
-
-        for (ch= ‘A’; ch<= ‘Z’; ch++)
-
-             putchar(ch);
-
-             putchar (‘\n’ ) ;
-
-             /* print lowercase letters */
-
-             for (ch= ‘a’; ch<= ‘z’; ch++)
-
-                  putchar(ch);
-
-                  putchar (‘\n’) ;
-
-                  getch();
-
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i != 'q' && i != 'e')
+			putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
