@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 /**
 * main - print last digit of int
+*/
 int main(void)
 {
 	int n;
