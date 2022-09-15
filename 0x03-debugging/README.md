@@ -1,1 +1,5 @@
-Debugging Programs
+C - Debugging 
+
+GDB is the GNU debugger 
+
+
