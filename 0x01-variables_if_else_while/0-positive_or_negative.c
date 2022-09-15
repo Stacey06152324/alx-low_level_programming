@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n;
-   	int last;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -19,7 +19,6 @@ int main(void)
 		printf("%i is positive\n", n);
 	if (last < 0)
 		printf("%i is negative\n", n);
-   
+
 	return (0);
-   
 }
