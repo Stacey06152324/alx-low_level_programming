@@ -29,8 +29,3 @@ void times_table(void)
 		printf("\n");
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
