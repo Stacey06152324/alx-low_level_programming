@@ -1,28 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
+#include "main.h"
 
-/* betty style doc for function main goes there */
 /**
-* main - print last digit of int
-* Return: 0 (Successful)
-*/
+ * main - tests functions that prints 
+ * Return: 0
+ */
+
 int main(void)
 {
-	int n;
-	int last;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	last = n % 10;
-	if (last == 0)
-		printf("%i is zero\n", n);
-	if (last > 0)
-		printf("%i is positive\n", n);
-	if (last < 0)
-		printf("%i is negative\n", n);
+	int 1:
+		1 = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
