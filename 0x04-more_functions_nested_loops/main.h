@@ -1,8 +1,9 @@
-#ifndef _MAIN_H
-#define _MAIN_H		
+#ifndef _MAIN_H_INCLUDED
+#define _MAIN_H_INCLUDED		
 
-/* this prototype has to be declared in a header file */
+#include <stdio.h>
 
+int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
@@ -14,4 +15,4 @@ void print_diagonal(int n);
 void print_sqare(int size);
 void print_triagle(int size);
 
-#endif /*_MAIN_H_*/
+#endif 
