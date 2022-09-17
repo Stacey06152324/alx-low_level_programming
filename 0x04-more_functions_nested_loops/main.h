@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN>H		
+#ifndef _MAIN_H
+#define _MAIN_H		
 
 /* this prototype has to be declared in a header file */
 
