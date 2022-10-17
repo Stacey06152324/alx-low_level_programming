@@ -3,7 +3,6 @@
 /**
 *_puts -function that prints a string
 *@str: this is the first entry point
-
 */
 void _puts(char *str)
 
