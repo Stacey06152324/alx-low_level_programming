@@ -5,7 +5,6 @@
 *@str: This is my first entry
 */
 void puts2(char *str)
-	
 {
 	int i;
 
