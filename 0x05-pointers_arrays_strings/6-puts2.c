@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *_puts- functions that prints every other character
 *@str: This is my first entry
