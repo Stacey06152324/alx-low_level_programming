@@ -4,7 +4,7 @@
 *_puts- functions that prints every other character
 *@str: This is my first entry
 */
- void puts2(char *str)
+void puts2(char *str)
 {
 	int i;
 
